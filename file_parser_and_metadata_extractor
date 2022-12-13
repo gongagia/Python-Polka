@@ -1,0 +1,4 @@
+This program appears to be designed to search a directory and its subdirectories for files of a specified media type, 
+and then check the contents of each file to determine if it is of a type specified by the user. If the file matches one of the user-specified media types, 
+the program will print some information about the file, such as its name and location, as well as the contents of the first 32 bytes of the file.
+Users will need to create txt file corresponding to the contents in media list user_media_interest for specified file filtered binary signatures

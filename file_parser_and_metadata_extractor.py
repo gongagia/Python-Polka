@@ -1,11 +1,6 @@
-import platform
 import os
 import scandir
 
-if platform.system() == 'Windows':
-    seperator = "/"
-else:
-    seperator = "\\"
 
 directory = input("Input Directory: ")
 media_type = input("Input media to parse: ")

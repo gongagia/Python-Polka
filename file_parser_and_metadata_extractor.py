@@ -18,6 +18,5 @@ for paths, dirs, files in scandir.walk(directory):
                 header = str(f.read(32))
                 for image_array in image_list:
                     if image_array[0] in header:
-                        stats = [os.path.join(paths, file), header, os.stat(os.path.join(paths, file)), "\n"]
-                        for x in stats:
-                            print(x)
+                        print(os.path.join(paths, file), "\n", header, "\n",
+                              os.stat(os.path.join(paths, file)),"\n")
